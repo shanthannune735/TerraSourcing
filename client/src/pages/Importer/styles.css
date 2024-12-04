@@ -1,0 +1,12 @@
+.bg-opacity-custom {
+  background-image: url('/form-background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  opacity: 0.3; /* Adjust this value to control opacity */
+}
+
+.scrollable-div-class {
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}

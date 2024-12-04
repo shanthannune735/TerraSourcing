@@ -1,0 +1,35 @@
+.phone-input {
+  width: 100% !important; /* Ensure the container spans full width */
+}
+
+.phone-input .react-phone-input__input {
+  width: 100% !important; /* Ensure the input field spans full width */
+  box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+
+.phone-input input {
+  width: 100%;
+}
+
+/* TagInput.css */
+.rti--container {
+  --rti-s: 0.25rem; /* Smaller spacing around elements */
+}
+
+.custom-input-class {
+  padding: 6px 12px; /* Adjust padding to match other inputs */
+  font-size: 14px; /* Match the font size with other input fields */
+  height: 26px; /* Set the height to match the other fields */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.custom-tag-class {
+  padding: 3px 6px; /* Adjust padding to reduce the tag height */
+  font-size: 14px;
+  margin: 2px;
+  border-radius: 3px;
+  background-color: #edf2f7; /* Adjust the background color if needed */
+  line-height: 1.5; /* Ensure the text is centered */
+  border: none
+}

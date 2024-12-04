@@ -1,0 +1,25 @@
+/* Ensure to include this CSS if not using Tailwind's built-in utilities */
+.slider-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.slider-wrapper {
+  display: flex;
+  transition: transform 0.7s ease;
+}
+
+.slider-item {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Add this to your global CSS file */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

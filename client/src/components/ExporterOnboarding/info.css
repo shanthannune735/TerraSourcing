@@ -1,0 +1,19 @@
+.phone-input-container {
+  width: 100%;
+}
+
+.phone-input-container .react-international-phone-input {
+  width: 100%;
+}
+
+.phone-input-container .react-international-phone-input-container {
+  width: 100%;
+}
+
+.phone-input-container .react-international-phone-country-selector-button {
+  width: auto;
+}
+
+.phone-input-container .react-international-phone-input input {
+  width: 100%;
+}
